@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:padding="2dp" >
+
+    <ImageView
+        android:id="@+id/ic_msg_avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_alert" />
+
+    <TextView
+        android:id="@+id/txtv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:drawableLeft="@drawable/ic_time"
+        android:drawablePadding="5dp"
+        android:text="@null"
+        android:textColor="@color/thirdheadColor"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/txtv_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@id/txtv_time"
+        android:layout_toRightOf="@id/ic_msg_avatar"
+        android:text="@null"
+        android:textColor="@color/headColor"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtv_title"
+        android:layout_marginBottom="2dp"
+        android:layout_toRightOf="@id/ic_msg_avatar"
+        android:text="@null"
+        android:textColor="@color/subheadColor"
+        android:textSize="12dp" />
+
+</RelativeLayout>

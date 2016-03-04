@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/actbar_dot"
+        android:layout_width="8dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:gravity="center|left"
+        android:src="@drawable/vdot" />
+
+    <ImageView
+        android:id="@+id/actbar_avatar"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_toRightOf="@id/actbar_dot"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_avatar"
+        android:gravity="center|left" />
+
+    <TextView
+        android:id="@+id/actbar_user_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="0dp"
+        android:layout_toRightOf="@id/actbar_avatar"
+        android:background="@drawable/ic_chat_msg"
+        android:gravity="center"
+        android:padding="0dp"
+        android:text="12条消息"
+        android:textColor="@android:color/white"
+        android:textSize="12dp" >
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/tabbar_intera_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/bar_item_msg"
+            style="@style/bar_menu_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/lbl_msg"
+            android:textSize="16dp" />
+
+        <RadioButton
+            android:id="@+id/bar_item_contact"
+            style="@style/bar_menu_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/lbl_contact"
+            android:textSize="16dp" />
+
+        <RadioButton
+            android:id="@+id/bar_item_video_conf"
+            style="@style/bar_menu_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/lbl_video_conf"
+            android:textSize="16dp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/actbar_search"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_search_light"
+        android:gravity="center|right" />
+
+    <ImageView
+        android:id="@+id/actbar_plus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_bar_add"
+        android:gravity="center|right" />
+
+</RelativeLayout>

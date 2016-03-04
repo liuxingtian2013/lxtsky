@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PMC</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 导航 -->
+    <string name="lbl_menu_home">主页</string>
+    <string name="lbl_menu_application">应用</string>
+    <string name="lbl_menu_project">项目</string>
+    <string name="lbl_menu_chat">沟通</string>
+
+    <!--  -->
+    <string name="lbl_project_hint">项目名称</string>
+    <string name="lbl_search_hint">搜索</string>
+    <string name="hint_user_name">请输入邮箱或手机号</string>
+    <string name="hint_user_pwd">请输入密码</string>
+
+    <!--  -->
+    <string name="lbl_project_principal">项目负责人</string>
+    <string name="lbl_project_address">项目地址</string>
+    <string name="lbl_project_participant">项目参与人</string>
+
+    <!--  -->
+    <string name="lbl_msg">消息</string>
+    <string name="lbl_contact">通讯录</string>
+    <string name="lbl_video_conf">视频会议</string>
+    <string name="lbl_work_group">工作圈</string>
+    <string name="lbl_find_new_friend">新的朋友</string>
+    <string name="lbl_login_txt">登  录</string>
+    <string name="lbl_logout_txt">退  出</string>
+
+    <!--  -->
+    <string name="lbl_user_info">个人资料及设置</string>
+    <string name="lbl_voice_settings">声音设置</string>
+    <string name="lbl_shake_settings">震动设置</string>
+    <string name="lbl_about">关于（版本、备案、版权）</string>
+    <string name="lbl_user_pwd_setting">修改密码</string>
+    <string name="lbl_feedback_setting">意见反馈</string>
+
+    <!--  -->
+    <string name="lbl_login_tip">还没有账号？    注册    </string>
+    <string name="lbl_splash_tip">春晖科技有限公司研发</string>
+    
+    <!-- server info -->
+    <string name="server_url">http://192.168.0.163/</string>
+    
+    
+
+</resources>

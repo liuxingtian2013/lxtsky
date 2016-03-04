@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <net.ilifang.app.commons.widget.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_bobby"
+        app:border_color="@null"
+        app:border_width="2dp" />
+
+    <TextView
+        android:id="@+id/lbl_user_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/avatar"
+        android:padding="10dp"
+        android:text="IBobby"
+        android:textColor="@android:color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/lbl_user_dept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_user_info"
+        android:layout_toRightOf="@id/avatar"
+        android:padding="10dp"
+        android:text="UHome云平台"
+        android:textColor="@color/dark_yellow"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/lbl_user_state_mind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/avatar"
+        android:padding="10dp"
+        android:text="踮起脚尖，我们会离幸福跟近一点"
+        android:textColor="@android:color/white"
+        android:textSize="16dp" />
+
+</RelativeLayout>

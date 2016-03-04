@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/share"
+        android:showAsAction="never"
+        android:enabled="false"
+        android:title="@string/abc_searchview_description_clear"/>
+    <item
+        android:id="@+id/undo"
+        android:icon="@drawable/abc_ab_share_pack_mtrl_alpha"
+        android:showAsAction="always"
+        android:title="@string/abc_action_bar_home_description"/>
+    <item
+        android:id="@+id/redo"
+        android:icon="@drawable/abc_btn_check_material"
+        android:showAsAction="always"
+        android:title="@string/abc_capital_off"/>
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/abc_control_background_material"
+        android:showAsAction="always"
+        android:title="@string/lbl_menu_home"/>
+</menu>

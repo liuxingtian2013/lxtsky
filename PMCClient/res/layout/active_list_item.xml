@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white" >
+
+    <ImageView
+        android:id="@+id/ic_view_active"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_alert" />
+
+    <TextView
+        android:id="@+id/label_btn_act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/label_round_with_border"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="按钮"
+        android:textColor="@color/light_blue"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/txtv_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@id/label_btn_act"
+        android:layout_toRightOf="@id/ic_view_active"
+        android:text="@null"
+        android:textColor="@color/headColor"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:id="@+id/active_labeles"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtv_title"
+        android:layout_toRightOf="@id/ic_view_active" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@null"
+            android:textColor="@color/dark_green"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/descTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/active_labeles"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/ic_view_active"
+        android:text="我们这么年轻，做喜欢的事情，爱所爱的人。关于未来，不迎接不纠结，活在当下，珍惜当下好时光"
+        android:textColor="@color/subheadColor"
+        android:textSize="12dp" />
+
+</RelativeLayout>
