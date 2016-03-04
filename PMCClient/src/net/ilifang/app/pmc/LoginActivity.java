@@ -28,7 +28,7 @@ import android.widget.Toast;
 
 /**
  * @Description 登录
- * @author 刘兴田  
+ * @author 刘兴田才是款项目的研发人
  * @date
  */
 public class LoginActivity extends Activity{
